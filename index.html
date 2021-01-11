@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Page Title</title>
+    <script src='sql-autocomplete-build.min.js'></script>
+</head>
+
+<body>
+    <script>
+        'use strict';
+
+        (function () {
+            document.addEventListener('DOMContentLoaded', function onLoadHandler() {
+                window.SQLAutocomplete = window['sql-autocomplete'].SQLAutocomplete;
+                window.SQLDialect = window['sql-autocomplete'].SQLDialect;
+                const sqlAutocomplete = new SQLAutocomplete(SQLDialect.MYSQL);
+                console.log(sqlAutocomplete);
+            })
+        })();
+    </script>
+</body>
+
+</html>
