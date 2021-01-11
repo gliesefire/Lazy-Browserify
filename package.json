@@ -1,6 +1,6 @@
 {
   "name": "lazy_browserify",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Convert NodeJS packages to browser-usable bundle",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "keywords": [
     "browserify",
-    "babel-minify"
+    "terser"
   ],
   "author": "gliesefire",
   "license": "Apache-2.0",
