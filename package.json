@@ -12,12 +12,12 @@
   ],
   "author": "gliesefire",
   "license": "Apache-2.0",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "browserify": "^17.0.0",
     "npm": "^6.14.11",
     "terser": "^5.5.1"
   },
+  "devDependencies": {},
   "repository": {
     "url": "https://github.com/gliesefire/Lazy-Browserify.git"
   }
